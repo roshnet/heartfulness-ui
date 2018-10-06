@@ -1,0 +1,3 @@
+var uname=$("#signup-space form input[name='username']").val();
+function validate(){var a=$("input[name='passwd']").val(),b=$("input[name='passwd-verify']").val(),c=$("input[name='name']").val().length,d=$("input[name='username']").val().length;if(4>c)return $("#sgp-alert").html("Name too short (4 characters at least)!<br/>"),!1;if(6>d)return $("#sgp-alert").html("Username should be at least 6 characters!<br/>"),!1;if(a!=b)return $("#sgp-alert").html("Passwords do not match!<br/>"),!1;if(6>a.length)return $("#sgp-alert").html("Passwords must be at least 6 characters!<br/>"),!1}
+function lowerify(a){a.value=a.value.toLowerCase()};

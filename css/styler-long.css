@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+html{
+	font-family: montserrat, verdana, sans-serif;
+	/*font-weight: 400;*/
+	font-size: 16px; /* def=16px*/
+}
+*{cursor: default;font-family: montserrat;}
+#fluid-container{
+	padding: 1% 1%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	width: 100%;
+}
+
+header{
+	font-size:190%;
+	padding-left: 2%;
+	background-color: rgb(10,10,120);
+	color: #ffffff;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	margin-top: 0%;
+	margin-bottom: 10%;
+	padding-top: 3%;
+	margin-left: -1%;
+	margin-right: 1%;
+	padding-bottom: 3%;
+	/*box-shadow: -5px 7px 2px 0.1px rgba(100,100,150,0.5);*/
+	box-shadow: -3px 3px 5px 2px #c1c1cc;
+	z-index: 100;
+}
+/*extra*/
+#header-alt{position: fixed;top:0%;left:1%;width: 100%;}
+
+#sitenav{margin-top: 10%;}
+
+.title{font-size: 200%;font-family:raleway;font-weight: 300;margin-bottom: 1%;}
+
+
+#sub-header{
+	/*position: absolute;*/
+	font-size: 180%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	color: #4444ff;
+}
+
+footer{font-family:montserrat;text-align:center;font-size:140%;
+    color:#fff;background-color:#39399B;}
+@media all and (min-width: 200px) and (max-width: 320px){
+	footer{font-size: 60%;padding: 5%;letter-spacing: 1px;}
+}
+@media all and (min-width: 321px){
+	footer{font-size: 140%;padding: 3%;letter-spacing: 3px;}
+}
+
+#sitenav{margin-left: 10%;margin-right: 10%;text-align: center;}
+
+#sitenav ul a{
+	color: rgb(50,50,255);
+	font-size: 120%;
+	text-decoration: none;
+}
+#sitenav ul{margin-left: 10%; margin-right: 10%;}
+#sitenav ul a li{
+	display: inline;
+	padding: 2% 4%;
+	font-size: 120%;
+	cursor: default;
+}
+
+#sitenav ul a li:hover{
+	background-color: #000064;
+	color: #ffffff;
+	transition: 0.4s;
+}
+#signup-space,#login-space{margin-bottom:20%;}
+
+.content-space{margin-bottom:20%;}
+footer{background-color: #323296;}
+.decent-hr{width: 80%; color:silver;}
+
+.v-spacer{margin-top: 5%; margin-bottom: 5%;}
+.centred{text-align: center;}
+
+.info-header{
+	font-size: 160%;
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	/*color: #bbaaff;*/
+	color: #0000b4;
+}
+
+.__button__{background-color: #0000C819;}
+.__button__:hover{
+	background-color: #0000ff44;
+	transition: 0.3s;
+}
+.info{
+	font-size: 110%;
+	margin-top: 1%;
+	font-weight: 300;
+	margin-left: 25%;
+	margin-right: 25%;
+	line-height: 160%;
+	padding: 1%;
+	color: #6464C8;
+	/*border-radius: 4%;*/
+}
+
+.highlight{margin-top: 5%;font-size: 130%;}
+
+
+.content-space form{
+	text-align: center;
+	margin-top: 5%;
+}
+
+
+.field{
+	font-size: 100%;
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	/*background-color:rgba(25,25,255,0.1);*/
+	background-color:#1919FF19;
+	/*box-shadow: 0px 0px 10px 0px rgba(0,0,200,0.3);*/
+	border: 0;
+	font-weight: 300;
+}
+
+
+#sgp-alert{color: #cc0000;font-family:muli;}
+
+.user-alert{font-size: 80%;color: #cc0404;font-family: muli;}
+
+.__button__{
+	border: 0;
+	font-size: 80%;
+	padding: 1% 3%;
+}
+
+.__icon__{
+	font-size: 55%;
+
+}
+
+
+.__asker__{
+	font-style:italic;
+	color: #0000ff;
+	/*font-size: 90%;*/
+}
+
+.asker{font-weight: 300;}
+/*more general features on top*/
+.qbody{
+	/*font-family: assistant;*/
+	font-family: muli;
+	background-color: rgba(123, 227, 219, 0.3);
+	padding: 20px 15px;
+	color: rgba(100,100,202);
+	font-size: 110%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+.curr_ques{
+	font-family: muli;
+	/*background-color: #7390e399;*/
+	color: rgb(100,100,200);
+	margin: 4% 2%;
+}
+
+.button-btn{
+	/*background-color: #2525c3;*/
+	background-color: #119;
+	color: #ffffff;
+	border: 0px;
+	padding: 1% 4%;
+	display: inline;
+	margin: 2% 1%;
+	font-size: 130%;
+	box-shadow: -2px 2px 3px 1px rgba(0,0,0,0.3); 
+}
+
+.button-btn:hover{
+	background-color: #114;
+	transition: 0.4s;
+}
+
+.qa-box{
+	background-color: rgba(250,250,250);
+	box-shadow: -1px 1px 5px 1px #aaa;
+	padding: 2%;
+	margin-top: 5%;
+}
+
+#qfeed h2{
+	font-size: 280%;
+	font-weight: 300;
+	/*font-family: helvetica;*/
+	color: rgba(50,50,120,0.6);
+}
+
+#qnav{text-align: center;}
+
+.screen-msg{font-size: 150%; font-weight: 300;}
+a{text-decoration: none;}
+
+textarea[name="q-text"]{
+	/*font-family: helvetica;*/
+	font-family: montserrat;
+	font-size: 90%;
+	width: 90%;
+	margin: 5% 0%;
+	margin-bottom: 2%;
+	resize: none;
+}
+.text_area{
+	font-family: montserrat;
+	font-size: 90%;
+	width: 90%;
+	margin: 5% 0%;
+	margin-bottom: 2%;
+	resize: none;
+}
+#old-ques-btn{margin-top: 7%;}
+img[alt="www.000webhost.com"]{display:none;}
+@media all and (min-width: 250px) and (max-width: 390px){
+/*small screens*/
+	header{font-size: 150%;font-weight:lighter;}
+	.title{font-family:helvetica;font-size: 120%;margin-top: 40px;}
+	#sub-header{margin-top: 25%;font-size: 150%;}
+	#sitenav ul a{font-size: 100%;padding: 2px;}
+	#sitenav ul{text-align: center;padding-left: 4%;padding-right: 4%;}
+	#sitenav{margin-top: 25%;margin-right: 2%;margin-left: 2%;}
+	.info-header{font-size: 130%;margin-top: 20%;}
+	.info{font-size: 90%;margin-left: 5%;margin-right: 5%;}
+	.field{font-size: 85%;}
+	#qfeed h2 {font-size: 180%;}
+	.v-spacer{margin-top: 10%;margin-right: 10%;}
+	.qbody{font-size: 80%;padding: 2% 5%;}
+	textarea[name="q-text"]{font-size: 80%;}
+	.button-btn{font-size: 90%;font-weight: 300;margin-bottom: 5%;padding: 2% 5%;}
+	/*#old-ques-btn{margin-top: 5%;}*/
+	.title{font-size: 120%;font-family:montserrat;margin-bottom: 1%;}
+	.asker{font-size: 80%;}
+	.ans-btn{font-size: 75%;}
+	.screen-msg{font-size: 90%;}
+	footer{font-size:90%;margin-top:10%;}
+}
+
+@media all and (min-width: 391px) and (max-width: 490px){
+	.info-header{margin-top: 20%;}
+	#sitenav ul a{font-size: 100%;}
+	#sitenav{margin-bottom: 20%;margin-top: 20%;}
+	.info{font-size: 100%;margin-left: 5%;margin-right: 5%;}
+	#qfeed h2 {font-size: 180%;}
+	.button-btn{font-size: 110%;}
+	.title{margin-top: 5%;}
+}
+
+
+@media all and (min-width: 491px) and (max-width: 600px){
+/*medium screens*/
+	header{font-size: 190%;}
+	.info-header{margin-top: 20%;}
+	.info{font-size: 100%;margin-left: 5%;margin-right: 5%;}
+	.button-btn{font-size: 130%;}
+	.title{font-size: 130%;font-family:montserrat;margin-bottom: 1%;margin-top: 5%;}
+}
+
+@media all and (min-width: 601px) and (max-width: 700px){
+	.info-header{margin-top: 20%;}
+	.info{font-size: 100%;margin-left: 5%;margin-right: 5%;}
+}
+
+
+@media all and (min-width: 701px){
+	/*large screens*/
+	header{font-size: 220%;}
+	#sub-header{font-size: 300%;}
+	.info-header{margin-top: 15%;}
+}

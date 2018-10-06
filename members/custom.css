@@ -1,0 +1,26 @@
+a{color: #fff;}
+ul li{list-style-type: none;}
+
+footer{margin-top: 5%;}
+footer ul{padding: 3% 2%;}
+footer ul a li{display: inline;padding: 2%;}
+footer ul {text-align: center;}
+
+
+footer ul a li:hover{background-color: rgb(40,40,120);}
+
+
+@media all and (min-width: 270px) and (max-width: 390px){
+	footer{font-size: 80%;padding-top:5%;padding-bottom:5%;}
+}
+
+@media all and (min-width: 390px) and (max-width:500px){
+    footer{font-size: 90%;padding: 3%;letter-spacing: 1px;}
+}
+@media all and (min-width:501px) and (max-width:600px){
+    footer{font-size:140%;}
+}
+
+/*
+@media all and (min-width: 321px){footer{font-size: 140%;padding: 3%;letter-spacing: 3px;}}
+/*from styler.css (minified)*/
